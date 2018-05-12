@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34495e</color>
+    <color name="colorPrimaryDark">#092234</color>
+    <color name="colorAccent">#60748b</color>
+
+    <!--bgSplash-->
+    <color name="bgSplash">#34495e</color>
+
+    <!--colorBase-->
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrey">#c3c3c3</color>
+    <color name="colorBaseDamfood">#f39c12</color>
+
+    <!--colorSlider-->
+    <color name="bgSlider1">#32AC6F</color>
+    <color name="bgSlider2">#FFA624</color>
+    <color name="bgSlider3">#01BBD4</color>
+
+    <!--bgToolbarHeader-->
+    <color name="bgToolbarHeader">#1e1e1e</color>
+
+    <!--bgNav-->
+    <color name="bgNav">#181818</color>
+
+    <!--bgNavActive-->
+    <color name="bgNavActive">#f39c12</color>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgSplash"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="online.damfood.damfood.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_size_100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo"
+        android:layout_margin="@dimen/dimen_size_50dp"/>
+
+    <EditText
+        android:id="@+id/et_nim"
+        android:layout_below="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="15.11.9000"
+        android:maxLength="10"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_below="@+id/et_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:text="asdf"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"/>
+
+    <LinearLayout
+        android:layout_below="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_login_rounded"
+            android:layout_marginTop="@dimen/dimen_size_50dp"
+            android:paddingLeft="@dimen/dimen_size_50dp"
+            android:paddingRight="@dimen/dimen_size_50dp"
+            android:textSize="@dimen/font_size_15sp"
+            android:text="LOGIN"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/et_password"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_login"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/dimen_size_80dp"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>

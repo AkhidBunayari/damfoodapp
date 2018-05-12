@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bgNav"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_size_70dp"
+        android:background="@drawable/nav_bg_rounded">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/iv_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_size_20dp"
+                android:layout_weight="1"
+                android:background="@drawable/nav_home" />
+
+            <ImageButton
+                android:id="@+id/iv_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_size_20dp"
+                android:layout_weight="1"
+                android:background="@drawable/nav_status" />
+
+            <ImageButton
+                android:id="@+id/iv_dompet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_size_20dp"
+                android:layout_weight="1"
+                android:background="@drawable/nav_dompet" />
+
+            <ImageButton
+                android:id="@+id/iv_akun"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_size_20dp"
+                android:layout_weight="1"
+                android:background="@drawable/nav_akun" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
