@@ -14,10 +14,7 @@ Fitur Unggulan dari damfoodApp :
   - Modul restfull API - PHP Framework
 
 Instalasi :
-Database postgresql-10
-Nginx/Apache2
-Android Studio 3
-  - Minimum Android Lollipop
+Database postgresql-10, Nginx/Apache2, Android Studio 3 (>= Lollipop)
 
 Copyrights 
 Kelompok RPL - Waode Mia Hasanah's Team. Need some info, please email to bunayari@gmail.com. Thx
