@@ -20,5 +20,4 @@ Android Studio 3
   - Minimum Android Lollipop
 
 Copyrights 
-Kelompok RPL - Waode Mia Hasanah's Team
-Need some info, please email to bunayari@gmail.com. Thx
+Kelompok RPL - Waode Mia Hasanah's Team. Need some info, please email to bunayari@gmail.com. Thx
